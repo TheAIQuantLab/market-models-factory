@@ -15,11 +15,6 @@ class BaseModel(ABC):
         pass
 
     @abstractmethod
-    def print_paths(self, data=None, n_paths: int = 5):
-        """Print sample paths to console/log."""
-        pass
-
-    @abstractmethod
     def plot_paths(self, data=None, **kwargs):
         """Plot the simulated paths."""
         pass
