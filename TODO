@@ -1,0 +1,15 @@
+# improve descriptions/comments
+# stochastic financial market models: 
+## Black-Scholes Model / Geometric Brownian Motion (GBM) - DONE
+## Heston Model
+## fractional Brownian Motion (fBM)
+## multifractal brownian motion (mBm)
+## GARCH Model
+## Ornstein-Uhlenbeck Process
+## Cox-Ingersoll-Ross (CIR) Model
+# stochastic NN models:
+## LSTM-based Geometric Brownian Motion (GBM)
+## PINN
+## SDE NNs
+## variational autoencoders (VAEs) for stochastic processes
+## normalizing flows for stochastic processes
