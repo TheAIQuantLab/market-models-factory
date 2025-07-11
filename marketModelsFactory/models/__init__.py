@@ -1,8 +1,8 @@
-from .model_base import BaseModel
-from .model_brownian_motion import BrownianMotionModel 
+from .BaseModel import BaseModel as BaseModelClass
+from .GeometricBrownianMotion import GeometricBrownianMotion as GBMClass
 
-def model_base(**params):
-    return BaseModel(params)
+def BaseModel(**params):
+    return BaseModelClass(params)
 
-def model_brownian_motion(**params):
-    return BrownianMotionModel(params)
+def GeometricBrownianMotion(**params):
+    return GBMClass(params)
